@@ -1,0 +1,31 @@
+div
+{   padding-left: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 5px rgba(47, 105, 128, 0.178) groove;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+div:hover
+{   
+    color: rgb(0, 0, 0);
+    background-color: rgba(176, 243, 243, 0.199);
+}
+
+div img
+{ 
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+h4{
+    margin-left: 20px;
+}
+
+  
