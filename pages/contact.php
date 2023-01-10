@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <title>Contact</title>
-</head>
-<body>
-    <div class="header">
-        <a href="#default" class="logo">💎Diamant💎</a>
-        <div class="header-right">
-            <a href="../index.html">Accueil</a>
-            <a href="produits.html">Produits</a>
-            <a class="active" ahref="#contact">Contact</a>
-          <a href="abouts.html">A Propos</a>
-        </div>
-      </div>
+<?php
+include "../pages/header.php"
+?>
       <div class="background">
         <div class="container">
           <div class="screen">
