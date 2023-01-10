@@ -1,4 +1,4 @@
-div
+.divParent
 {   padding-left: 10px;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -11,21 +11,32 @@ div
     overflow: hidden;
 }
 
-div:hover
+.divParent:hover
 {   
     color: rgb(0, 0, 0);
     background-color: rgba(176, 243, 243, 0.199);
 }
 
-div img
+.divParent img
 { 
+    margin-top: 20px;
     margin-left: 50px;
-    width: 400px;
+    width: 350px;
+    height: 200px;
     border-radius: 20px;
 }
 
-h4{
+.titre
+{
     margin-left: 20px;
 }
+
+.articles
+{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
 
   
